@@ -1,2 +1,2 @@
 # Personal Website
-This is my first major exploration of HTML/CSS/Javascript/other web tech. It'll be interesting to see where this journey into the web wilderness takes me, so enjoy my progress!
+This is my first major exploration of HTML/CSS/Javascript/other web tech. I've never done a full scale site from scratch before, so hopefully it turns out pretty decent. You can view the live version of the site at any time by visiting www.rossfreeman.me.
