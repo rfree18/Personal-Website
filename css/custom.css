@@ -2,12 +2,14 @@ body {
     overflow-x: hidden;
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+   /* background: #18bc9c;*/
+    background-color: #143DFF;
 }
 
-.container-fluid {
-    padding-top: 100px;
-    padding-bottom: 50px;
+.main {
+    margin: auto;
+    width: 60%;
+    padding-top: 35vh;
 }
 
 .name {
@@ -22,12 +24,22 @@ body {
     font-weight: 300;
 }
 
-@media(min-width:768px) {
-    .container-fluid {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
+.banner {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    z-index: 100;
+}
 
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+@media(min-width:768px) {
     .name {
         font-size: 4.75em;
     }
@@ -51,7 +63,7 @@ body {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #143DFF;
     background: #fff;
 }
 .btn-social {
